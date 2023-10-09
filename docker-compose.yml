@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+
+  co2-admin-panel:
+    container_name: co2-admin-panel
+    build: .
+#    entrypoint: [ "tail", "-f", "/dev/null" ]
+    entrypoint: ["yarn", "start"]
+    ports:
+      - "3000:3000"

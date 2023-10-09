@@ -1,0 +1,36 @@
+span.form-error {
+  color: red;
+  font-size: 12px;
+}
+
+span.icon_act i {
+  font-size: 20px;
+}
+
+.centre {
+  text-align: center;
+}
+.brand-logo {
+  text-align: center;
+}
+
+div#pagination {
+  width: 100%;
+}
+
+ul.pagination {
+  float: right;
+  margin-top: 1rem;
+}
+
+select.form-control, .dataTables_wrapper select {
+  color: #495057;
+}
+
+.grid-margin {
+  margin-bottom: 1.4rem;
+}
+
+.content-wrapper {
+  padding: 1.5rem 1.04rem;
+}
